@@ -1,0 +1,103 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font: 14px ginto, helvetica, arial, sans-serif;
+    font-weight: 700;
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 70px;
+}
+.menu-header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #1679C4;
+    font-weight: bold;
+}
+.menu-header button {
+    padding: 8px 16px;
+    background-color: #1679C4;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px;
+    width: 100px;
+    font: 14px ginto, helvetica, arial, sans-serif;
+    font-weight: 700;
+}
+.logo-header img{
+    width: 250px;
+    height: auto;
+}
+.logo-header {
+    padding-left: 40px;
+}
+.nav-header {
+    border-right: 1px solid #ccc;
+}
+.menu-header a:hover {
+    color: #0d47a1;
+    border-bottom: 1px solid #0d47a1;
+}
+.menu-header button:hover {
+    background-color: #0d47a1;
+}
+.nav-auth i{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #1679C4;
+    cursor: pointer;
+}
+.nav-auth i:hover{
+    color: #0d47a1;
+}
+main{
+    margin-top: 94px;
+}
+.main-banner-text{
+    background-image: url('./Picture/main-banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.banner-text{
+    padding-top: 8px;
+    width: 50%;
+    margin-left: 50px;
+}
+.banner-text h1{
+    font-family: GT Super Display, Times New Roman, "serif";
+    font-size: 4.5rem;
+    line-height: 5rem;
+    color: #0578FF;
+}
+.banner-text button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #1679C4;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font: 14px ginto, helvetica, arial, sans-serif;
+    font-weight: 700;
+}
+.banner-text button:hover{
+    background-color: #0d47a1;
+}
+.banner-text p{
+    font-family: ginto, helvetica, arial, sans-serif;
+}
